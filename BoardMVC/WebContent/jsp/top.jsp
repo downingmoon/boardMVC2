@@ -12,6 +12,7 @@
           <a href="boardList.bo?btype=0">공지 게시판</a>
           <a href="boardList.bo?btype=1">자유 게시판</a>
           <a href="boardList.bo?btype=2">유머 게시판</a>
+          <a href="boardList.bo?btype=3">btype=3</a>
         </div>
       </li>
     </ul>
