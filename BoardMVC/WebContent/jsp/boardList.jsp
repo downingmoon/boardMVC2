@@ -57,9 +57,11 @@
 		<%
 			}
 		%>
-		<form action="boardInsert.bo?btype=${btype}" method="get">
+		<!-- <form action="boardInsert.bo?" method="get">
 			<input type="submit" value="글쓰기">
-		</form>
+			<input type="hidden" value="${btype}" name="btype">
+		</form> -->
+		<button onclick="location.href='boardInsert.bo?btype=${btype}'">글쓰기2</button>
 		<!-- <jsp:include page="bottom.jsp"></jsp:include> -->
 	</div>
 

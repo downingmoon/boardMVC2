@@ -22,10 +22,10 @@ public class BoardInsertAction implements Action {
 		String btitle = request.getParameter("btitle");
 		String bcontent = request.getParameter("bcontent");
 		
-		BoardDAO.Insert(btitle, bcontent, btype);
 		System.out.println("btitle : " + btitle);
 		System.out.println("bcontent : " + bcontent);
 		System.out.println("btype : " + btype);
+		BoardDAO.Insert(btitle, bcontent, btype);
 		
 		request.setAttribute("title", Var.TITLES[btype]);
 		request.setAttribute("content", "boardInsert");

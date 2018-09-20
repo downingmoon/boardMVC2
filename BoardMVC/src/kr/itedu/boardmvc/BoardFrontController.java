@@ -22,7 +22,8 @@ public class BoardFrontController extends HttpServlet {
 		System.out.println(ctxPath);
 		String comd = reqURI.substring(ctxPath.length());
 		System.out.println(comd);
-		
+		String page = reqURI.substring(comd.length());
+		System.out.println(page);
 		ActionForward forward = null;
 		Action action = null;
 		
